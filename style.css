@@ -1,0 +1,86 @@
+td {
+  width: 32px;
+  height: 13px;
+  border: 2px solid rgb(27, 24, 24);
+  background-color: black;
+  text-align: center;
+  text-shadow: 0 0 5em white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+table {
+  background-color: rgb(27, 24, 24);
+}
+.visited {
+  background-color: rgb(251, 251, 251);
+  border: 2px solid black;
+}
+.known {
+  background-color: rgb(56, 56, 56);
+  border: 2px solid black;
+}
+#dropdown {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 36px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid gray;
+  visibility: hidden;
+}
+li {
+  display: block;
+  height: 20px;
+  width: 36px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li span {
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+li img {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+}
+li:hover {
+  background-color: blue;
+}
+.treasure {
+  background-image: url(img/treasure.png);
+}
+.shop {
+  background-image: url(img/shop.png);
+}
+.secret {
+  background-image: url(img/secret.png);
+}
+.supersecret {
+  background-image: url(img/supersecret.png);
+}
+.boss {
+  background-image: url(img/boss.png);
+}
+.arcade {
+  background-image: url(img/arcade.png);
+}
+.challenge {
+  background-image: url(img/challenge.png);
+}
+.curse {
+  background-image: url(img/curse.png);
+}
+.library {
+  background-image: url(img/library.png);
+}
+.miniboss {
+  background-image: url(img/miniboss.png);
+}
+.sacrifice {
+  background-image: url(img/sacrifice.png);
+}
